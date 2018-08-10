@@ -1,0 +1,101 @@
+<!-- 
+    Class 1:
+        1.1 Wireframe your project
+        1.2 Fork and clone the repo and set up your project workspace
+    Class 2:  
+        2.1 Link your files in the head of the docment Add a Nav Bar to your site - It should have three links (Portfolio, About, and Contact) 
+        2.2 Add a div for each section. Within section add a contatiner div with the appropriate number of rows and columns
+    Class 3:  
+        3.1 Add thumbnails and other custom component (button, modal, font) using bootstrap Documentation 
+        3.2 Add CSS and add your site to gh-pages 
+-->
+
+<!DOCTYPE html>
+<head>   
+    <title>Julio's Portfolio</title>
+    
+    <!-- Your CSS  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type='text/css' href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="../js/script.js"></script>
+    
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Julio Ballista's Portfolio</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="../index.html"class='navbar-left'>Home</a></li>
+            <li><a href="../projects/pindex.html">Projects.</a></li>
+            <li><a href="#">Pictures.</a></li>
+            <li class="active"><a href="#">About Me.</a></li>
+        </ul>
+  </div>    
+</nav>
+<div id="theCarousel" class="carousel slide" data-ride="carousel" data-interval="12000">
+     <ol class="carousel-indicators">
+         <li data-target="#theCarousel" data-slide-to="0" class="active"> </li>
+         <li data-target="#theCarousel" data-slide-to="1"> </li>
+     </ol>
+  <div class="carousel-inner">
+         <div class="item active" >
+         <div class ="slide1"></div>
+             <div class="carousel-caption">
+                 <p>Read Below about Me!</p>
+             </div>
+          </div>
+  </div>
+</div>
+
+<div class ="container"> 
+<div class = "row">
+    <div class="col-md-6">
+        <h1 class='colpic'>New York City</h1>
+        <p class='coltec'>I was born and raised in Brooklyn, New York. Currently attending All City Leadership Secondary School.</p>
+    </div>
+    <div class="col-md-6">
+        <img class="col" src='../pics/col.jpg'>
+    </div>
+</div>
+</div>
+
+<div class='invis'>lol</div>
+
+<div class ="container"> 
+<div class = "row">
+    <div class="col-md-6">
+        <img class="bio" src='../pics/acla.jpg'>
+    </div>
+    <div class="col-md-6">
+        <h1 class='squadtext'>Computer Science </h1>
+        <p class='squadd'>I'm an up-and-coming Computer Scientist focused on community betterment and engagement. Bushwick and the development of its people is the top concern that my projects target.</p>
+    </div>
+</div>
+</div>
+
+<div class='invis'>lol</div>
+
+<div class ="container"> 
+<div class = "row">
+    
+    <div class="col-md-6">
+        <h1 class='guesstext'>For fun!</h1>
+        <p class='guessd'>I love spending time with my family, watching football, and leading discussions with my friends. Human interaction makes life worth living.</p>
+    </div>
+    
+    <div class="col-md-6">
+        <img class="guess" src='../pics/pats.jpg'>
+    </div>
+</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+</body>
+
+</html>

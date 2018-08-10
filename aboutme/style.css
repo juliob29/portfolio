@@ -1,0 +1,57 @@
+h1 {
+  font-size: 3.0em;
+  font-family: 'Pacifico', cursive;
+  padding-bottom: .4em;
+  color:white;
+}
+p{
+  color:white;
+}
+
+img {
+  width:100%;
+  border-radius:25px;
+}
+
+img:hover{
+  border-radius:40px;
+}
+body {
+  background-image: url("https://wallpapercave.com/wp/DM6hvet.jpg");
+  background-repeat: repeat-y;
+}
+
+.invis{
+  height:100%;
+  opacity:0%;
+}
+
+.slide1{
+  background-image: url(../pics/aboutme.gif);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+}
+.slide2{
+  background-image: url('https://lh3.googleusercontent.com/-4z0v0Sg0gk4/VqcVLEZrz1I/AAAAAAAAUPA/Q8oBa2xCLAYgQRd30MEsfb13O8h-NDmSQ/w245-h300/tumblr_mm6rmrrBb01rrftcdo2_250.gif');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+.slide3{
+  background-image: url('#');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.carousel-caption h1{
+  font-size: 5.4em;
+  font-family: 'Pacifico', cursive;
+  padding-bottom: .4em;
+}
+.carousel-caption p{
+  font-size: 2em;
+}
